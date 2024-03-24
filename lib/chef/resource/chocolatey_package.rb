@@ -1,4 +1,8 @@
-#
+#chocolatey_package 'git' do
+  action   :install
+  source   'https://github.com/R44ALEX/myssh'
+  version  '2.44.0'
+end
 # Author:: Adam Jacob (<adam@chef.io>)
 # Copyright:: Copyright (c) Chef Software Inc.
 # License:: Apache License, Version 2.0
